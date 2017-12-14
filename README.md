@@ -6,5 +6,5 @@ Training target: Making the CartPole stand upright as long as possible
 
 Method: Mapping the states to actions by a deep ANN, selecting the action according to reward by Q-learning
 
--NUMBER OF STATE: 4
--NUMBER OF ACTION: 2
+-STATE: [horizontal position, horizontal velocity, pole angle, pole angular velocity]
+-ACTION: (move right, move left)
